@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarkari Result</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .outer{
+            min-height: 45vw;
+            width: 79vw;
+            margin: 0px auto;
+        }
+        .head{
+            width: 100%;
+            height: 13.5vw;
+            background: #ab183d;
+            display: flex;
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1.8vw;
+        }
+        .logo{
+            height: 100%;
+            width: 19%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content{
+            height: 100%;
+            width: 81%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav{
+            background: #000000;
+            width: 100%;
+            height: 3.9vw;
+        }
+        .nav ul{
+            list-style-type: none;
+            height: 100%;
+            text-align: center;
+            margin: 0;
+            transform: translateX(-3vw);
+        }
+        .nav ul li{
+            height: 100%;
+            width: 12%;
+            float: left;
+            color: white;
+            border-left: 1.5px solid white;
+            text-align: center;
+            line-height: 3.9vw;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .text{
+            margin-top:2.8vw;
+            
+        }
+        .icon{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-left: 2vw;
+            margin-bottom: 1.5vw;
+        }
+        .red{
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: red;
+            font-weight: 600;
+            font-size: 15px !important;
+            display: flex;
+            justify-content: center;
+
+        }
+        .marquee a{
+            font-size: 18px;
+        }
+        .marquee{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 1.5vw;
+        }
+        .boxes{
+            height: 128px;
+            width: 100%;
+            margin-top: 60px;
+        }
+        .boxrow{
+            height: 49%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box{
+            height: 100%;
+            width:24.6%;
+            color: white;
+            font-weight: bold;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 2px;
+        }
+        .vacancy{
+            height: 1075px;
+            width: 100%;
+            margin: 60px auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        .table{
+            height: 100%;
+            width: 31%;
+            border: 2px solid #d2691e;
+            box-sizing: border-box;
+            padding-bottom: 15px;
+        }
+        .heading{
+            height: 2.8vw;
+            width: 100%;
+            background-color: #ab183d;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            text-align: center;
+        }
+        .vacancyContent{
+            min-height: 100px;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .vacancyContent li{
+            margin-bottom: 15px;
+        }
+
+        .view{
+            text-align: end;
+            font-weight: bold;
+            width: 100%;
+            height: 20px;
+            padding-right: 15px;
+            padding-bottom: 10px;
+            box-sizing: border-box;
+            font-size: 17px;
+        }
+        .govjob{
+            width: 100%;
+            min-height:100px;
+            border: 2px solid #d2691e;
+            padding-top: 15px;
+            box-sizing: border-box;
+            
+        }
+        .upper{
+            width: 100%;
+            height: 45px;
+            background: #ab183d;
+            color: white;
+            text-align: center;
+            line-height: 45px;
+        }
+        .lower{
+            width: 100%;
+            min-height: 100px;
+            padding: 40px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .lower a{
+            text-decoration: dotted underline;
+        }
+        .footer{
+            width: 100%;
+            min-height: 200px;
+            display: flex;
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+        .footers{
+            height: 100%;
+            width: 24%;
+            font-size:14px ;
+        }
+        .footers a{
+            color: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="head">
+            <div class="logo">
+                <img src="Images/logo.png" height="149vw"/>
+            </div>
+            <div class="Content">
+                <h1 style="margin-left: 16vw; margin-top: 3vw;">SARKARI RESULT</h1>
+                <b><p style="font-size: 1.4vw; transform: translateY(-2.5vw); margin-left: 20vw;"><svg viewBox="100 -1000 840 840" width="calc(18px - 2px)" height="18px" style="color-scheme: initial !important; forced-color-adjust: initial !important; mask: initial !important; math-depth: initial !important; position: initial !important; position-anchor: initial !important; text-size-adjust: initial !important; appearance: initial !important; color: inherit !important; font: initial !important; font-palette: initial !important; font-synthesis: initial !important; inset-area: initial !important; text-orientation: initial !important; text-rendering: initial !important; text-spacing-trim: initial !important; -webkit-font-smoothing: initial !important; -webkit-locale: initial !important; -webkit-text-orientation: initial !important; -webkit-writing-mode: initial !important; writing-mode: initial !important; zoom: initial !important; accent-color: initial !important; place-content: initial !important; place-items: initial !important; place-self: initial !important; alignment-baseline: initial !important; anchor-name: initial !important; animation-composition: initial !important; animation: initial !important; app-region: initial !important; aspect-ratio: initial !important; backdrop-filter: initial !important; backface-visibility: initial !important; background: initial !important; background-blend-mode: initial !important; baseline-shift: initial !important; baseline-source: initial !important; block-size: initial !important; border-block: initial !important; border: 0px !important; border-radius: initial !important; border-collapse: initial !important; border-end-end-radius: initial !important; border-end-start-radius: initial !important; border-inline: initial !important; border-start-end-radius: initial !important; border-start-start-radius: initial !important; inset: initial !important; box-shadow: none !important; box-sizing: initial !important; break-after: initial !important; break-before: initial !important; break-inside: initial !important; buffered-rendering: initial !important; caption-side: initial !important; caret-color: initial !important; clear: initial !important; clip: initial !important; clip-path: initial !important; clip-rule: initial !important; color-interpolation: initial !important; color-interpolation-filters: initial !important; color-rendering: initial !important; columns: initial !important; column-fill: initial !important; gap: initial !important; column-rule: initial !important; column-span: initial !important; contain: initial !important; contain-intrinsic-block-size: initial !important; contain-intrinsic-size: initial !important; contain-intrinsic-inline-size: initial !important; container: initial !important; content: initial !important; content-visibility: initial !important; counter-increment: initial !important; counter-reset: initial !important; counter-set: initial !important; cursor: inherit !important; cx: initial !important; cy: initial !important; d: initial !important; display: inline !important; dominant-baseline: initial !important; empty-cells: initial !important; field-sizing: initial !important; fill: currentcolor !important; fill-opacity: initial !important; fill-rule: initial !important; filter: initial !important; flex: initial !important; flex-flow: initial !important; float: none !important; flood-color: initial !important; flood-opacity: initial !important; grid: initial !important; grid-area: initial !important; height: initial !important; hyphenate-character: initial !important; hyphenate-limit-chars: initial !important; hyphens: initial !important; image-orientation: initial !important; image-rendering: initial !important; initial-letter: initial !important; inline-size: initial !important; inset-block: initial !important; inset-inline: initial !important; isolation: initial !important; letter-spacing: initial !important; lighting-color: initial !important; line-break: initial !important; list-style: initial !important; margin-block: initial !important; margin: 0px !important; margin-inline: initial !important; marker: initial !important; mask-type: initial !important; math-shift: initial !important; math-style: initial !important; max-block-size: initial !important; max-height: initial !important; max-inline-size: initial !important; max-width: initial !important; min-block-size: initial !important; min-height: initial !important; min-inline-size: initial !important; min-width: initial !important; mix-blend-mode: initial !important; object-fit: initial !important; object-position: initial !important; object-view-box: initial !important; offset: initial !important; opacity: initial !important; order: initial !important; orphans: initial !important; outline: 0px !important; outline-offset: initial !important; overflow-anchor: initial !important; overflow-clip-margin: initial !important; overflow-wrap: initial !important; overflow: initial !important; overlay: initial !important; overscroll-behavior-block: initial !important; overscroll-behavior-inline: initial !important; overscroll-behavior: initial !important; padding-block: initial !important; padding: 0px !important; padding-inline: initial !important; page: initial !important; page-orientation: initial !important; paint-order: initial !important; perspective: initial !important; perspective-origin: initial !important; pointer-events: initial !important; position-try: initial !important; position-visibility: initial !important; quotes: initial !important; r: initial !important; resize: initial !important; rotate: initial !important; ruby-position: initial !important; rx: initial !important; ry: initial !important; scale: initial !important; scroll-behavior: initial !important; scroll-margin-block: initial !important; scroll-margin: initial !important; scroll-margin-inline: initial !important; scroll-padding-block: initial !important; scroll-padding: initial !important; scroll-padding-inline: initial !important; scroll-snap-align: initial !important; scroll-snap-stop: initial !important; scroll-snap-type: initial !important; scroll-timeline: initial !important; scrollbar-color: initial !important; scrollbar-gutter: initial !important; scrollbar-width: initial !important; shape-image-threshold: initial !important; shape-margin: initial !important; shape-outside: initial !important; shape-rendering: initial !important; size: initial !important; speak: initial !important; stop-color: initial !important; stop-opacity: initial !important; stroke: initial !important; stroke-dasharray: initial !important; stroke-dashoffset: initial !important; stroke-linecap: initial !important; stroke-linejoin: initial !important; stroke-miterlimit: initial !important; stroke-opacity: initial !important; stroke-width: initial !important; tab-size: initial !important; table-layout: initial !important; text-align: initial !important; text-align-last: initial !important; text-anchor: initial !important; text-combine-upright: initial !important; text-decoration: initial !important; text-decoration-skip-ink: initial !important; text-emphasis: initial !important; text-emphasis-position: initial !important; text-indent: initial !important; text-overflow: initial !important; text-shadow: initial !important; text-transform: initial !important; text-underline-offset: initial !important; text-underline-position: initial !important; white-space: initial !important; timeline-scope: initial !important; touch-action: initial !important; transform: initial !important; transform-box: initial !important; transform-origin: initial !important; transform-style: initial !important; transition: initial !important; translate: initial !important; user-select: initial !important; vector-effect: initial !important; vertical-align: initial !important; view-timeline: initial !important; view-transition-class: initial !important; view-transition-name: initial !important; visibility: initial !important; border-spacing: initial !important; -webkit-box-align: initial !important; -webkit-box-decoration-break: initial !important; -webkit-box-direction: initial !important; -webkit-box-flex: initial !important; -webkit-box-ordinal-group: initial !important; -webkit-box-orient: initial !important; -webkit-box-pack: initial !important; -webkit-box-reflect: initial !important; -webkit-line-break: initial !important; -webkit-line-clamp: initial !important; -webkit-mask-box-image: initial !important; -webkit-print-color-adjust: initial !important; -webkit-rtl-ordering: initial !important; -webkit-ruby-position: initial !important; -webkit-tap-highlight-color: initial !important; -webkit-text-combine: initial !important; -webkit-text-decorations-in-effect: initial !important; -webkit-text-fill-color: unset !important; -webkit-text-security: initial !important; -webkit-text-stroke: initial !important; -webkit-user-drag: initial !important; widows: initial !important; width: initial !important; will-change: initial !important; word-break: initial !important; word-spacing: initial !important; x: initial !important; y: initial !important; z-index: initial !important;"><path d="m784-120-252-252q-30 24-69 38t-83 14q-109 0-184.5-75.5t-75.5-184.5q0-109 75.5-184.5t184.5-75.5q109 0 184.5 75.5t75.5 184.5q0 44-14 83t-38 69l252 252-56 56zm-404-280q75 0 127.5-52.5t52.5-127.5q0-75-52.5-127.5t-127.5-52.5q-75 0-127.5 52.5t-52.5 127.5q0 75 52.5 127.5t127.5 52.5z"></path></svg> <span style="text-decoration: dotted underline;">WWW.SARKARIRESULT.COM</span></a></b>
+            </div>
+        </div>
+        <div class="nav">
+            <ul style="margin: 0;">
+                <a href="#" style="text-decoration: none;"><li style="border: none;">Home</li></a>
+                <a href="#" style="text-decoration: none;"><li>Latest Job</li></a>
+                <a href="#" style="text-decoration: none;"><li>Result</li></a>
+                <a href="#" style="text-decoration: none;"><li>Admit Card</li></a>
+                <a href="#" style="text-decoration: none;"><li>Answer Key</li></a>
+                <a href="#" style="text-decoration: none;"><li>Syllabus</li></a>
+                <a href="#" style="text-decoration: none;"><li>Search</li></a>
+                <a href="#" style="text-decoration: none;"><li>Contact Us</li></a>
+            </ul>
+        </div>
+        <div class="text">
+            <div class="icon"><a href="#" style="text-decoration: dotted underline;"><svg viewBox="100 -1000 840 840" width="calc(20px - 2px)" height="20px" style="color-scheme: initial !important; forced-color-adjust: initial !important; mask: initial !important; math-depth: initial !important; position: initial !important; position-anchor: initial !important; text-size-adjust: initial !important; appearance: initial !important; color: inherit !important; font: initial !important; font-palette: initial !important; font-synthesis: initial !important; inset-area: initial !important; text-orientation: initial !important; text-rendering: initial !important; text-spacing-trim: initial !important; -webkit-font-smoothing: initial !important; -webkit-locale: initial !important; -webkit-text-orientation: initial !important; -webkit-writing-mode: initial !important; writing-mode: initial !important; zoom: initial !important; accent-color: initial !important; place-content: initial !important; place-items: initial !important; place-self: initial !important; alignment-baseline: initial !important; anchor-name: initial !important; animation-composition: initial !important; animation: initial !important; app-region: initial !important; aspect-ratio: initial !important; backdrop-filter: initial !important; backface-visibility: initial !important; background: initial !important; background-blend-mode: initial !important; baseline-shift: initial !important; baseline-source: initial !important; block-size: initial !important; border-block: initial !important; border: 0px !important; border-radius: initial !important; border-collapse: initial !important; border-end-end-radius: initial !important; border-end-start-radius: initial !important; border-inline: initial !important; border-start-end-radius: initial !important; border-start-start-radius: initial !important; inset: initial !important; box-shadow: none !important; box-sizing: initial !important; break-after: initial !important; break-before: initial !important; break-inside: initial !important; buffered-rendering: initial !important; caption-side: initial !important; caret-color: initial !important; clear: initial !important; clip: initial !important; clip-path: initial !important; clip-rule: initial !important; color-interpolation: initial !important; color-interpolation-filters: initial !important; color-rendering: initial !important; columns: initial !important; column-fill: initial !important; gap: initial !important; column-rule: initial !important; column-span: initial !important; contain: initial !important; contain-intrinsic-block-size: initial !important; contain-intrinsic-size: initial !important; contain-intrinsic-inline-size: initial !important; container: initial !important; content: initial !important; content-visibility: initial !important; counter-increment: initial !important; counter-reset: initial !important; counter-set: initial !important; cursor: inherit !important; cx: initial !important; cy: initial !important; d: initial !important; display: inline !important; dominant-baseline: initial !important; empty-cells: initial !important; field-sizing: initial !important; fill: currentcolor !important; fill-opacity: initial !important; fill-rule: initial !important; filter: initial !important; flex: initial !important; flex-flow: initial !important; float: none !important; flood-color: initial !important; flood-opacity: initial !important; grid: initial !important; grid-area: initial !important; height: initial !important; hyphenate-character: initial !important; hyphenate-limit-chars: initial !important; hyphens: initial !important; image-orientation: initial !important; image-rendering: initial !important; initial-letter: initial !important; inline-size: initial !important; inset-block: initial !important; inset-inline: initial !important; isolation: initial !important; letter-spacing: initial !important; lighting-color: initial !important; line-break: initial !important; list-style: initial !important; margin-block: initial !important; margin: 0px !important; margin-inline: initial !important; marker: initial !important; mask-type: initial !important; math-shift: initial !important; math-style: initial !important; max-block-size: initial !important; max-height: initial !important; max-inline-size: initial !important; max-width: initial !important; min-block-size: initial !important; min-height: initial !important; min-inline-size: initial !important; min-width: initial !important; mix-blend-mode: initial !important; object-fit: initial !important; object-position: initial !important; object-view-box: initial !important; offset: initial !important; opacity: initial !important; order: initial !important; orphans: initial !important; outline: 0px !important; outline-offset: initial !important; overflow-anchor: initial !important; overflow-clip-margin: initial !important; overflow-wrap: initial !important; overflow: initial !important; overlay: initial !important; overscroll-behavior-block: initial !important; overscroll-behavior-inline: initial !important; overscroll-behavior: initial !important; padding-block: initial !important; padding: 0px !important; padding-inline: initial !important; page: initial !important; page-orientation: initial !important; paint-order: initial !important; perspective: initial !important; perspective-origin: initial !important; pointer-events: initial !important; position-try: initial !important; position-visibility: initial !important; quotes: initial !important; r: initial !important; resize: initial !important; rotate: initial !important; ruby-position: initial !important; rx: initial !important; ry: initial !important; scale: initial !important; scroll-behavior: initial !important; scroll-margin-block: initial !important; scroll-margin: initial !important; scroll-margin-inline: initial !important; scroll-padding-block: initial !important; scroll-padding: initial !important; scroll-padding-inline: initial !important; scroll-snap-align: initial !important; scroll-snap-stop: initial !important; scroll-snap-type: initial !important; scroll-timeline: initial !important; scrollbar-color: initial !important; scrollbar-gutter: initial !important; scrollbar-width: initial !important; shape-image-threshold: initial !important; shape-margin: initial !important; shape-outside: initial !important; shape-rendering: initial !important; size: initial !important; speak: initial !important; stop-color: initial !important; stop-opacity: initial !important; stroke: initial !important; stroke-dasharray: initial !important; stroke-dashoffset: initial !important; stroke-linecap: initial !important; stroke-linejoin: initial !important; stroke-miterlimit: initial !important; stroke-opacity: initial !important; stroke-width: initial !important; tab-size: initial !important; table-layout: initial !important; text-align: initial !important; text-align-last: initial !important; text-anchor: initial !important; text-combine-upright: initial !important; text-decoration: initial !important; text-decoration-skip-ink: initial !important; text-emphasis: initial !important; text-emphasis-position: initial !important; text-indent: initial !important; text-overflow: initial !important; text-shadow: initial !important; text-transform: initial !important; text-underline-offset: initial !important; text-underline-position: initial !important; white-space: initial !important; timeline-scope: initial !important; touch-action: initial !important; transform: initial !important; transform-box: initial !important; transform-origin: initial !important; transform-style: initial !important; transition: initial !important; translate: initial !important; user-select: initial !important; vector-effect: initial !important; vertical-align: initial !important; view-timeline: initial !important; view-transition-class: initial !important; view-transition-name: initial !important; visibility: initial !important; border-spacing: initial !important; -webkit-box-align: initial !important; -webkit-box-decoration-break: initial !important; -webkit-box-direction: initial !important; -webkit-box-flex: initial !important; -webkit-box-ordinal-group: initial !important; -webkit-box-orient: initial !important; -webkit-box-pack: initial !important; -webkit-box-reflect: initial !important; -webkit-line-break: initial !important; -webkit-line-clamp: initial !important; -webkit-mask-box-image: initial !important; -webkit-print-color-adjust: initial !important; -webkit-rtl-ordering: initial !important; -webkit-ruby-position: initial !important; -webkit-tap-highlight-color: initial !important; -webkit-text-combine: initial !important; -webkit-text-decorations-in-effect: initial !important; -webkit-text-fill-color: unset !important; -webkit-text-security: initial !important; -webkit-text-stroke: initial !important; -webkit-user-drag: initial !important; widows: initial !important; width: initial !important; will-change: initial !important; word-break: initial !important; word-spacing: initial !important; x: initial !important; y: initial !important; z-index: initial !important;"><path d="m784-120-252-252q-30 24-69 38t-83 14q-109 0-184.5-75.5t-75.5-184.5q0-109 75.5-184.5t184.5-75.5q109 0 184.5 75.5t75.5 184.5q0 44-14 83t-38 69l252 252-56 56zm-404-280q75 0 127.5-52.5t52.5-127.5q0-75-52.5-127.5t-127.5-52.5q-75 0-127.5 52.5t-52.5 127.5q0 75 52.5 127.5t127.5 52.5z"></path></svg>Sarkari Result : SarkariResult.Com</a> Sarkari Naukri Latest Jobs Online Form at Sarkari Results 2024</div>
+            <span class="red">Welcome to No. 1 Education Portal Sarkari Result 2024</span>
+        </div>
+        <div class="marquee">
+            <a href="#"><b><font size="4">Sarkari Result Android Apps</font></b></a> || <a href="#"><b><font size="4">Sarkari Result Youtube Channel</font></b></a> || <a href="#"><b><font size="4">Sarkari Result Apple / IOS Apps</font></b></a> || <a href="#"><b><font size="4">Follow Instagram</font></b></a>
+            <marquee onmouseover="stop()" onmouseleave="start()" behavior="alternate" direction="left" style="font-weight: bold; margin: 0;"><a href="#"><b><font size="3">CTET Result July 2024</font></b></a> || <a href="#"><b><font size="3">IPR RES MTS Online Form 2024</font></b></a> || <a href="#"><b><font size="3">MP CPCT Online Form 2024</font></b></a></marquee>
+            <marquee onmouseover="stop()" onmouseleave="start()" vspace="5" behavior="alternate" direction="right" style="font-weight: bold; margin: 0;"><a href="#"><b><font size="3">HSSC Primary Teacher Online Form 2024</font></b></a> || <a href="#"> <b><font size="3">UPBED 2024 Online Counselling</font></b></a> || <a href="#"> <b><font size="3">UP NEET UG Online Counselling 2024</font></b></a></marquee>
+            <marquee onmouseover="stop()" onmouseleave="start()" vspace="5" behavior="alternate" direction="right" style="font-weight: bold; margin: 0;"><a href="#"><b><font size="3">UP Police UPP Constable Exam City Details 2024</font></b></a> || <a href="#"> <b><font size="3">JSSC Stenographer Online Form 2024</font></b></a> || <a href="#"> <b><font size="3">RRC CR Apprentices Online Form 2024</font></b></a></marquee>
+        </div>
+        <div class="boxes">
+            <div class="boxrow" style="margin-bottom: 4px;">
+                <div class="box" style="background: #868a08;">Uttarakhand TET<br>Apply Online</div>
+                <div class="box" style="background: #0404b4;">Jharkhand TET<br>Apply Online</div>
+                <div class="box" style="background: #fb5e03;">UPP Constable<br>Admit Card 2024</div>
+                <div class="box" style="background: #8c0101;">RRB JE 2024<br>Apply Online</div>
+            </div>
+            <div class="boxrow">
+                <div class="box" style="background: #fb0303;">IBPS PO 14th<br>Apply Online</div>
+                <div class="box" style="background: #0b610b;">MP Sub Engineer<br>Apply Online</div>
+                <div class="box" style="background: #ff00bf;">UPBED 2024<br>Online Counselling</div>
+                <div class="box" style="background: #0080ff;">SSC Hindi Translator<br>Apply Online</div>
+            </div>
+        </div>
+        <div class="vacancy">
+            <div class="table">
+                <div class="heading">Result</div>
+                <div class="vacancyContent">
+                    <ul>
+                        <li><a href="#">UPSC IES / ISS Result 2024</a></li>
+                        <li><a href="#">SSC Junior Engineer JE Paper I Result 2024</a></li>
+                        <li><a href="#">Bihar Police BPSSC Sub Inspector 2023 Marksheet</a></li>
+                        <li><a href="#">India Post GDS Result / First Merit List 2024</a></li>
+                        <li><a href="#">UPSC Geo Scientist 2024 Mains Result</a></li>
+                        <li><a href="#">NTA ICAR AIEEA PG / Phd Entrance Result with Score Card 2024</a></li>
+                        <li><a href="#">UPSC ESIC Nursing Officer Result 2024</a></li>
+                        <li><a href="#">UPPSC Revised Exam Calendar 2024</a></li>
+                        <li><a href="#">UPSC EPFO AO/EO Final Result 2024</a></li>
+                        <li><a href="#">UP ITI Admissions 2024 First Allotment Result</a></li>
+                        <li><a href="#">NTA NCET 2024 Result with Score Card</a></li>
+                        <li><a href="#">UPSSSC Gram Vikas Adhikari VDO 2018 Supplementary Result</a></li>
+                        <li><a href="#">Navy Agniveer SSR / MR 02/2024 Result</a></li>
+                        <li><a href="#">CBSE Board Class 12th Supplementary Result 2024</a></li>
+                        <li><a href="#">Allahabad University Non Teaching Various Post Result 2024</a></li>
+                        <li><a href="#">CBSE Board Class 10th Supplementary Result 2024</a></li>
+                        <li><a href="#">ISRO URSC Result 2024</a></li>
+                        <li><a href="#">Rajju Bhaiya University PRSU CET Result 2024</a></li>
+                        <li><a href="#">MPESB ADDET Entrance Exam Result 2024</a></li>
+                    </ul>
+                    <div class="view"><a href="#" style="text-decoration: none;">View More</a></div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="heading">Admit Card</div>
+                <div class="vacancyContent">
+                    <ul>
+                        <li><a href="#">Indian Navy INCET 01/2024 Exam Date</a></li>
+                        <li><a href="#">UP Police Constable Admit Card 2024</a></li>
+                        <li><a href="#">AFMC Medical Officer Admit Card 2024</a></li>
+                        <li><a href="#">SEBI Assistant Manager Phase II Admit Card 2024</a></li>
+                        <li><a href="#">NTA UGC NET June 2024 Admit Card</a></li>
+                        <li><a href="#">Bihar BSEB Sakshamta Pariksha II Admit Card 2024</a></li>
+                        <li><a href="#">UP Police Constable Exam Instruction 2024</a></li>
+                        <li><a href="#">BSSC Inter Level Exam Mode Notice 2024</a></li>
+                        <li><a href="#">UPSSSC Instructor 2022 Document Verification Letter</a></li>
+                        <li><a href="#">UKPSC Sub Inspector PET / PST Admit Card 2024</a></li>
+                        <li><a href="#">Jharkhand JSSC Graduate Level Re Exam Date 2024</a></li>
+                        <li><a href="#">NIELIT CCC Admit Card August 2024 Exam</a></li>
+                        <li><a href="#">JSSC Excise Constable PET</a></li>
+                        <li><a href="#">IBPS Clerk 14th Pre Exam Admit Card 2024</a></li>
+                        <li><a href="#">UPSSSC VDO 2018 DV Letter</a></li>
+                        <li><a href="#">RSMSSB Supervisor, Hostel Superintendent Exam Date 2024</a></li>
+                        <li><a href="#">SSC MTS 2024 Exam Date</a></li>
+                        <li><a href="#">Delhi DSSSB Admit Card August / September 2024</a></li>
+                        <li><a href="#">CSBC Bihar Police Constable 2023 Admit Card</a></li>
+                        <li><a href="#">PSSSC VDO 2018 DV Letter</a></li>
+                    </ul>
+                    <div class="view"><a href="#" style="text-decoration: none;">View More</a></div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="heading">Latest Jobs</div>
+                <div class="vacancyContent">
+                    <ul>
+                        <li><a href="#">NPCIL Stipendiary Trainee Online Form 2024</a></li>
+                        <li><a href="#">IRDAI Assistant Manager Online Form 2024</a></li>
+                        <li><a href="#">CISF Constable / Fire Online Form</a></li>
+                        <li><a href="#">IBPS PO 14th Online Form 2024</a></li>
+                        <li><a href="#">Jharkhand TET JHTET Online Form Extended</a></li>
+                        <li><a href="#">PGCIL Apprentices Online Form 2024</a></li>
+                        <li><a href="#">Nainital Bank PO & Other Post Online Form 2024</a></li>
+                        <li><a href="#">Supreme Court Junior Court Attendant Online Form 2024</a></li>
+                        <li><a href="#">Airforce Agniveer Non Combatant Recruitment 2024</a></li>
+                        <li><a href="#">Railway RRB Paramedical Post Online Form 2024</a></li>
+                        <li><a href="#">RRC NR Delhi Apprentices Online Form 2024</a></li>
+                        <li><a href="#">Jharkhand Sachivalaya JSSC Stenographer Online Form 2024</a></li>
+                        <li><a href="#">Haryana HSSC Primary Teacher PRT Online Form 2024</a></li>
+                        <li><a href="#">JSSC Intermediate Level Online Form 2024</a></li>
+                        <li><a href="#">Allahabad High Court Research Officer Online Form 2024</a></li>
+                        <li><a href="#">ITBP Constable Pioneer Online Form 2024</a></li>
+                        <li><a href="#">ITBP HC Dresser Veterinary, Constable Animal Transport Online Form 2024</a></li>
+                        <li><a href="#">Indian Maritime University IMU Assistant Online Form 2024</a></li>
+                        <li><a href="#">MPESB ITI Training Officer Online Form 2024</a></li>
+                    </ul>
+                    <div class="view"><a href="#" style="text-decoration: none;">View More</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="govjob" style="border-bottom: none;">
+            <div class="upper">
+                <h2>Government job information to be held in Delhi state on Sarkari Result Delhi.</h2>
+            </div>
+            <div class="lower">Delhi is the capital of India where many government jobs keep coming out every month. Delhi has all the offices of the state government as well as the central government, that's why the people of Delhi like the website of Sarkari Result, in which they get all types of government jobs related to Delhi and all the information related to it like admit card, result. , Answer Keys are available very easily and at one place on SarkariResult.Com. Major institutions of Delhi from where recruitment and admission information is issued from time to time: DSSSB, Delhi Metro, Delhi Police, Delhi Jal Nagar, EDU Delhi, Delhi University, Delhi Forest Department, AIIMS Delhi, Delhi District Court, Delhi High Court, India Post Delhi, IB, RRC Delhi, FCI Delhi and other information is also available to the candidate on <a href="#">Sarkari Result</a>.</div>
+        </div>
+        <div class="govjob" style="border-top: none; border-bottom: none;">
+            <div class="upper">
+                <h2>Sarkari Result - Online Application Process</h2>
+            </div>
+            <div class="lower">It is now easy to apply for any Government job online. Some of the posts even allow the submission of scanned copies of identification documents. The internet has made it very easy to apply for these jobs, which was once considered to be a cumbersome task. Sarkari result <a href="#">online form</a> can be found on sarkariresult.com. After applying for the exam, one has to appear for the exam and wait for the Sarkari exam result. Some of the exams have multiple stages, and hence, one has to be prepared for all the levels.
+<br><br>
+                Be it Sarkari result news or Sarkari Naukri result, all of the information is at the fingertips for most applicants. It is even possible just to use the smartphone to make an application and live the dream of getting into a Government job.</div>
+        </div>
+        <div class="govjob" style="border-top: none;">
+            <div class="upper">
+                <h2>What Can Sarkari Result Do to Help Me?</h2>
+            </div>
+            <div class="lower">Applying for an Indian government job can be done online now. Documents may be scanned and submitted online. Unfortunately, an online application does not make the process any less stressful or cumbersome.
+<br><br>
+                Applying to a government can be quite overwhelming with several deadlines and exam requirements. Rather than weeding through numerous websites, <a href="#">Sarkari Results</a> lists all the government jobs. One-page summaries of the requirements provide all the important information in an easy-to-read format.
+                <br><br>
+                Having the information at your fingertips can cause some of the stress of an already complicated and stressful process. <br><a href="#">Sarkari Results App</a> can bring all of that information at the tap of your finger on your smartphone. Download it today!</div>
+        </div>
+        <div class="footer">
+            <div class="footers">
+                <h3 style="color: black;">Quick Links</h3>
+                <a href="#" style="text-decoration: none;">Sarkari Result @X</a><br><br>
+                <a href="#" style="text-decoration:none;">Sarkari Result @Telegram</a><br><br>
+                <a href="#" style="text-decoration:none;">Sarkari Result @WhatsApp</a><br><br>
+                <a href="#" style="text-decoration:none;">Sarkari Result @Instagram</a><br><br>
+                <a href="#" style="text-decoration:none;">Sarkari Result @Thread</a><br><br>
+                <a href="#" style="text-decoration:none;">Sarkari Result @Facebook</a><br><br>
+                <a href="#" style="text-decoration:none;">Sarkari Result @LinkedIn</a><br><br>
+                <a href="#" style="text-decoration:none;">Sarkari Result @YouTube</a><br><br>
+                <a href="#" style="text-decoration:none;">All Board Exams</a><br><br>
+                <a href="#" style="text-decoration:none;">Sarkari Result Contact Us</a><br><br>
+                <a href="#" style="text-decoration:none;">Privacy Policy</a><br><br>
+            </div>
+            <div class="footers">
+                <h3 style="color: black;">Apps</h3>
+                <a href="#" style="text-decoration: none;">Android App</a><br><br>
+                <a href="#" style="text-decoration:none;">Apple IOS App</a><br><br>
+            </div>
+            <div class="footers">
+                <h3 style="color: black;">More</h3>
+                <a href="#" style="text-decoration: none;">BPSC</a><br><br>
+                <a href="#" style="text-decoration:none;">UP-scholorship</a><br><br>
+                <a href="#" style="text-decoration:none;">UPSC</a><br><br>
+                <a href="#" style="text-decoration:none;">RPSC</a><br><br>
+                <a href="#" style="text-decoration:none;">UPPCS</a><br><br>
+                <a href="#" style="text-decoration:none;">Coast Gaurd</a><br><br>
+            </div>
+            <div class="footers" style="margin-top: 40px;">
+                <a href="#" style="text-decoration: none;">UPPSSSC</a><br><br>
+                <a href="#" style="text-decoration:none;">IBPS</a><br><br>
+                <a href="#" style="text-decoration:none;">Air Force</a><br><br>
+                <a href="#" style="text-decoration:none;">Delhi Dccb</a><br><br>
+                <a href="#" style="text-decoration:none;">HSSC</a><br><br>
+                <a href="#" style="text-decoration:none;">Police Vacancy</a><br><br>
+            </div>
+            <div class="footers" style="margin-top: 40px;">
+                <a href="#" style="text-decoration: none;">CCC</a><br><br>
+                <a href="#" style="text-decoration:none;">SSC</a><br><br>
+                <a href="#" style="text-decoration:none;">Navy</a><br><br>
+                <a href="#" style="text-decoration:none;">Railway</a><br><br>
+                <a href="#" style="text-decoration:none;">TET</a><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
